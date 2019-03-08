@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#menu a:hover{
+    background-color:rgb(143, 8, 102);
+    padding:1em;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 0, 149);
+    height: 75px;
+    align-items: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.banner>img{
+    width:100%
+}
+a{
+    color: #fff;
+}
+.titulo{
+    font-size: 30px;
+    margin-left:40px; 
+    display: flex;
+    align-items: center;
+}
+.pessoa{
+    height: 400px;
+}
+.texto1{
+    display: block;
+}
+.titulo1{
+    margin: 40px;
+}
+.titulo2{
+    font-size: 30px;
+    margin-left:40px; 
+}
+.banner>h2{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 0.5em 2em;
+}
+.banner{
+    position:relative;
+    display: flex;
+    /*flex-direction: column;*/ 
+    justify-content: center;
+    align-items: center;
+    font-size: 70PX;
+}
+.site{
+}
+.hamburgeria{
+    vertical-align: top;
+}
+.portifolio{
+    display: flex;
+    justify-content: space-around;
+}
+.portifolio img {
+    height: 30%;
+    width: 30%;
+}
+
+#portfolio {
+    width: 100%;
+}
+#rodape{
+    background-color: rgb(241, 0, 149);
+ }
+ #rodape>a{
+    text-decoration: none;
+    font-family: 'calibri';
+ }
+ #rodape{
+     font-style: normal;
+     text-align: center;
+     color:#000;
+ }
+ .titulo3{
+    font-size: 45px;
+    margin-left:40px; 
+}
+.busca_nome{
+    width:15%;
+    background-color:#fff;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+.busca_valor{
+    width: 85%;
+    background-color: rgb(224, 10, 135);
+    height: 20px;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 
+    -3px -3px 0 #000,
+     3px -3px 0 #000,
+     -3px  3px 0 #000,
+      3px  3px 0 #000;
+}
+#barra1{
+    height: 40px;
+}
+#barra2{
+    height: 40px;
+}
+#barra3{
+    height: 40px;
+    width: 66%;
+}
+#barra4{
+    height: 40px;
+    width: 70%;
+}
+#barra5{
+    height: 40px;
+    width: 70%;
+}
+#barra6{
+    height: 40px;
+}
+@media (max-width:768px){
+    
+}
+@media (max-width:487px){}
